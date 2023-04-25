@@ -1,0 +1,519 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    
+    width: 100%;
+    height: 100vh;
+    scroll-behavior: smooth;
+}
+
+.head__container {
+    height: 100vh;
+    width: 100%;
+    
+    background-image: url("../img/Basheer.jpg");
+    background-size: cover;
+
+    background-repeat: no-repeat;
+    background-position: center center;
+    position: relative;
+    
+}
+
+.navbar__section {
+    
+    padding: 25px 20px;
+}
+
+.navbar__unorder__list {
+    display: flex;
+    list-style: none;
+    
+}
+
+.navbar__list {
+    padding-left: 1rem;
+}
+
+.navbar__link {
+    text-decoration: none;
+    font-size: 1rem;
+    text-transform: uppercase;
+    border: none;
+    font-weight: bold;
+    font-family: Source Sans Pro;
+    color: black;
+}
+
+.head__content {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border: 1px ssolid black;
+    
+    text-transform: capitalize;
+    text-align: center;
+    
+     color: rgb(22, 10, 193);
+     position: absolute;
+     bottom: 0;
+     left: 0;
+     letter-spacing: 1px;
+     background: rgba(0, 0, 0, 0.023);
+box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.5 );
+backdrop-filter: blur( 10px );
+-webkit-backdrop-filter: blur( 10px );
+
+}
+
+.head__text {
+    font-weight: 700;
+    padding-bottom: 0.3rem;
+    font-size: 1.6rem;
+    padding-top: 1rem;
+    
+}
+
+.head__para {
+    font-weight: 600;
+    font-family: Playfair Display;
+    font-size: 1rem;
+    padding: 0.5rem;
+    padding-bottom: 2rem;
+}
+
+.main__body{
+    display: grid;
+    place-items: center;
+    width: 100%;
+    
+}
+
+.main__container {
+    width: 100%;
+    
+    height: auto;
+    display: grid;
+    
+    place-items: center;
+    gap: 1rem;
+}
+
+.section__wrapper{
+    max-width: 800px;
+    display: grid;
+    grid-template-columns: repeat(2 ,auto); 
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+.article__section {
+    width: 400px;
+    
+   
+
+
+}
+
+.section__aside {
+    width: 400px;
+    padding: 10px;
+    height: 350px;
+}
+
+.section__one {
+    padding: 1rem;
+    
+    font-family: Roboto Slab;
+}
+
+.sect__head {
+    
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    padding-bottom: 0.6rem;
+    margin-top: 1rem;
+}
+
+.sect__para{
+    text-align: justify;
+    text-transform: none;
+     text-indent: 60px;
+    line-height: 1.5rem;
+    font-family: "Source Sans Pro";
+    color: black;
+    font-size: 1rem;
+}
+
+
+
+.section__two {
+    padding: 2rem auto;
+}
+
+
+
+.section__frame {
+    height:100%;
+    
+}
+
+.section__frame__img {
+    width: 100%;
+    height: 100%;
+    padding: 5px;
+    border-radius: 5px;
+    box-shadow: 5px 5px 9px #606060, -5px -5px 9px #ffffff;
+}
+
+.fig__caption {
+    text-align: center;
+    font-weight: normal;
+    color: rgb(235, 4, 4);
+    text-transform: uppercase;
+    font-size: 1rem;
+    padding: 0.8rem;
+    letter-spacing: 1px;
+}
+
+.section__btn {
+    content: "";
+    display: block;
+    clear: both;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 200px;
+}
+
+.btn_block {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    gap:1rem;
+}
+
+.btn {
+    background-color: gray;
+    border: none;
+    width: 140px;
+    height: 40px;
+    padding: 0.6rem;
+    font-size: 1rem;
+    
+    border-radius: 0.4rem;
+    outline: none;
+    color: black;
+    text-align: center;
+    text-transform: capitalize;
+    
+    
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     align-content: center;
+     box-shadow: 5px 5px 9px #606060, -5px -5px 9px #ffffff;
+}
+
+.btn__primary{
+    background-color: rgb(40, 21, 213);
+    color: #ffffff;
+}
+
+.btn__secondary {
+    background-color: red;
+    color: #ffffff;
+}
+
+.btn__info {
+    background-color: seagreen;
+    color: #ffffff;
+    box-shadow: 5px 5px 9px #606060, -5px -5px 9px #ffffff;
+}
+
+.fa-wikipedia-w,
+.fa-play,
+.fa-book{
+    color: whitesmoke;
+    font-size: o.5rem;
+    margin-right: 0.4rem;
+}
+
+.section__quotes {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    padding: 2rem;
+    height: auto;
+}
+
+.sec__quotes{
+
+    width: 100%;
+    max-width: 400px;
+    font-size: 1rem;
+    color: #ffffff;
+    text-transform: none;
+   
+}
+
+.text__strong {
+    text-transform: capitalize;
+    font-weight: normal;
+    font-style: italic;
+    color:red;
+    font-size: 1.4rem;
+}
+
+.awards__container {
+    width: 100%;
+    background-color: #0A2A5B;
+    height: auto;
+    display: grid;
+    place-items: center;
+}
+
+.award__warpper{
+    max-width: 800px;
+    width: 100%;
+    
+}
+
+.section__award__head {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    text-transform: uppercase;
+    font-size: 1.5rem;
+    color: wheat;
+}
+
+.section__award__head:before,
+.section__award__head:after {
+    margin: auto;
+    border-bottom: 1px solid black;
+    flex: 12;
+    content: "";
+}
+
+.section__awards{
+    display: grid;
+    grid-template-columns: repeat(2,auto);
+    justify-content: center;
+    align-items: center;
+    row-gap: 2rem;
+    column-gap: 2rem;
+    
+    padding: 2rem;
+}
+
+.award__one{
+    width: 200px;
+    height: 250px;
+    
+
+}
+
+.fa-star {
+    color: silver;
+    font-size: 1.5rem;
+    padding: 2px;
+    margin: 5px;
+}
+
+
+.award__one h4 {
+    font-size: 1rem;
+   color: #ffffff;
+    width: 100%;
+    border: 2px solid beige;
+    padding: 1rem;
+    margin: 5px auto;
+    border-radius: 0.4rem;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+
+
+.award__one > p {
+    font-size: 1rem;
+    padding: 1rem;
+    text-align: justify;
+    line-height: 1.5rem;
+    color:wheat;
+}
+
+.book__container {
+     width: 100%;
+    height:auto;
+}
+
+.book__section {
+    width: 100%;
+   padding: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.5rem;
+    gap: 2rem;
+}
+
+.novel__block {
+    
+    width: 250px;
+    height: auto;
+    border-radius: 0.4rem;
+    box-shadow: 5px 5px 9px #606060, -5px -5px 9px #ffffff;
+}
+
+.novel__head {
+    text-align: left;
+    padding: 1rem;
+    font-size: 1rem;
+    text-transform: uppercase;
+    color: royalblue;
+}
+
+.book__order {
+    list-style: none;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    padding: 0.5rem;
+}
+
+.book__order > li {
+    text-transform: capitalize;
+    font-weight: normal;
+    padding-bottom: 0.8rem;
+    align-self: first baseline;
+    font-size: 1rem;
+}
+
+.text__book {
+    text-align: center;
+    font-size: 0.8rem;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+    padding: 10px;
+    margin: 0;
+    color: royalblue;
+}
+
+.text__book:after,
+.text__book:before {
+    flex: 11;
+    content: "";
+    border-bottom: 1px ridge black;
+    margin: auto;
+}
+
+.footer__section {
+    
+    width: 100%;
+    height: auto;
+    background-color: rgba(110, 71, 71, 0.678);
+    font-family: Verdana;
+    display: grid;
+    place-items: center;
+    justify-content: center;
+    align-items: center;
+    row-gap: 5rem;
+    color: wheat;
+    background-color: black;
+}
+
+.foot__section__one {
+    margin-top: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: first baseline;
+
+}
+
+.foot__head{
+    font-size: 0.9rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    text-align: center;
+    
+    
+}
+
+.foot__para{
+    font-size: 0.7rem;
+    text-transform: none;
+     line-height: 1.3rem;
+     text-align: justify;
+     padding-left: 0.5rem;
+
+
+    }
+
+.foot__content {
+    padding: 1.5rem;
+
+    
+
+    
+
+}
+
+
+.foot__icons {
+    display: flex;
+    justify-content: center;
+    align-content: first baseline;
+    align-items: center;
+}
+
+.fa-youtube,
+.fa-facebook,
+.fa-foot,
+.fa-square-twitter {
+    
+    font-size: 1rem;
+    padding: 0.5rem;
+}
+
+.foot__text {
+    text-align: center;
+    font-size: 1rem;
+    font-weight: 400;
+    text-transform:capitalize;
+    
+    padding: 0.5rem;
+}
+
+.foot__texter {
+    text-align: center;
+    font-size: 1rem;
+    font-weight: 400;
+    text-transform: capitalize;
+
+    padding: 4px;
+    padding-bottom: 2rem;
+}
